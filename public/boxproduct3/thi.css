@@ -1,0 +1,310 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html {
+    font-size: 13px;
+    line-height: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background:  url(banner.png) no-repeat; 
+    background-size: 100% 500px;
+    padding: 0px 30px;
+    /* border: 0.3px solid ; */
+    background-color: rgb(255, 241, 222), top left;
+    box-shadow: 1px 1px 1px 1px #ccc ;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    /* border: 1px solid black; */
+    align-items: center;
+}
+.header ul li {
+    list-style-type: none;
+    align-items: center;
+}
+.header ul li a {
+    padding: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+.header p {
+    font-weight: bold;
+    font-size: 15px;
+}
+.header span {
+    color: rgb(251, 147, 51) ;
+}
+#ac {
+    color: rgb(251, 147, 51);
+}
+.button {
+    padding: 8px 22px;
+    border-radius: 20px;
+    background-color: rgb(251, 147, 51);
+    border:  1px solid rgb(251, 147, 51);
+    color: white;
+}
+.banner {
+    display: grid;
+    grid-template-columns: 50% 48%;
+    column-gap: 2%;
+}
+.banner_left {
+    margin-top: 100px
+}
+.chu {
+    padding: 15px;
+    /* border: 1px solid; */
+}
+.chu p {
+    text-align: left;
+}
+.chu button {
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 20px ;
+    border: 1px solid antiquewhite;
+    color: rgb(251, 147, 51);
+    margin-bottom: 20px;
+}
+.chu h1 {
+    line-height: 50px;
+    font-size: 40px;
+}
+.chu p {
+    padding: 20px 0px;
+}
+#food {
+    background-color: rgb(251, 147, 51);
+    color: white;
+    margin-top: 10px;
+}
+.so {
+   display: flex;
+   padding: 10px;
+   /* border: 1px solid; */
+   margin-top: 10px;
+}
+.hang1 {
+    padding: 0px 10px;
+    color: #333;
+}
+.banner_right {
+    display: grid;
+    grid-template-columns: 45% 28%;
+    column-gap: 100px;
+    margin-top: 400px;
+}
+.banner_icon {
+    display: grid;
+    grid-template-columns: 20% 75%;
+    column-gap: 10%;
+    border: 1px solid ;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    padding: 0px 10px;
+}
+.phanchu p {
+    font-weight: bold;
+}
+.banner_icon img {
+    width: 150%;
+}
+.phanchu i {
+    color: rgb(251, 147, 51);
+    font-weight: bold;
+}
+.phanchu span {
+    font-weight: bold;
+}
+.phanchu {
+    font-size: 10px;
+    color: #333;
+}
+.banner_icon2 img {
+    width: 100%;
+    margin-top: 15px;
+}
+.banner_icon2{
+    padding: 10px;
+    background-color: rgb(245, 250, 255);
+    border-radius: 20px;
+    height: 120px;
+}
+.phanchu2 {
+    font-weight: #333;
+}
+.phanchu2 h3 {
+    text-align: left;
+}
+.phanchu2 h3 span {
+    color: #333;
+}
+.why {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    column-gap: 15%;
+    padding: 20px;
+    /* border: 1px solid; */
+    align-items: center;
+    color: #333;
+}
+.why span {
+    color: rgb(251, 147, 51);
+}
+.why h1 {
+    line-height: 30px;
+}
+.why p {
+    color: #626060;
+}
+.ba_menu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    text-align: left;
+    margin-top: 30px;
+}
+.ba_menu img {
+    width: 50%;
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 15px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px 2px wheat;
+}
+.content {
+    padding-top: 50px;
+}
+.content h3 {
+    padding-bottom: 20px;
+}
+.content p {
+    font-size: 12px;
+}
+.learn {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.learnbt button {
+    margin-top: 15px;
+    padding: 7px 15px;
+    text-align: center;
+    background-color: rgb(251, 147, 51);
+    color: white;
+    border:  1px solid rgb(251, 147, 51);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.content i {
+    font-size: 19px;
+}
+.khung {
+    background:url(bg-ourSubcribe.png);
+    background-color: rgb(255, 241, 222);
+    height: 300px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.phanchukhung1 {
+    /* border: 1px solid; */
+    margin-bottom: 30px;
+}
+#mauvang {
+    color:rgb(251, 147, 51) ;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.phanchukhung1 h1 {
+    line-height: 40px;
+    margin-bottom: 18px;
+}
+
+.phanchukhung2 {
+    /* border: 1px solid; */
+    padding: 10px;
+}
+.botron {
+    background-color: aliceblue;
+    width: 70%;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 15px;
+    position: relative;
+    color: #797676;
+}
+.botron span {
+    margin-left: 250px;
+    background-color: rgb(251, 147, 51);
+    border-radius: 20px;
+    padding: 9px;
+    color: wheat;
+    border: 1px solid rgb(251, 147, 51);
+    position: absolute;
+    top: 5px;
+    left: 155px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    text-align: left;
+}
+.footer ul {
+    margin-top:-8px;
+}
+.footer ul li {
+    list-style-type: none;
+}
+.footer ul li  a {
+    text-decoration: none;
+    color: black;
+    line-height: 35px;
+}
+.healthy h3 span {
+    color: rgb(251, 147, 51);
+}
+.healthy p {
+    padding-top: 20px;
+}
+#mauden {
+    color: rgb(251, 147, 51);
+}
+#get {
+    color: rgb(251, 147, 51);
+}
+.flexicon {
+    display: grid;
+    grid-template-columns: 10% 100%;
+    column-gap: 5%;
+    align-items: center;
+    padding-top: 17px;
+}
+.iconnho {
+    font-size: 18px;
+    margin-bottom: 17px;
+}
+.iconnho i {
+    padding-right: 10px;
+    color: rgb(251, 147, 51) ;
+}

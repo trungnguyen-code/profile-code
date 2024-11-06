@@ -1,0 +1,50 @@
+.bgmenu{
+    background: url(baner.jpg) center center repeat;
+    height: 380px;
+    border-radius: 7px;
+}
+a{
+text-decoration: none;
+color: black;
+font-weight: 500;
+}
+.caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.caption2 {
+    background-color: white !important;
+    border-radius: 8px;
+    width: 600px;
+    padding: 20px 0px;
+}
+.icondiadiem {
+    margin-top: 10px;
+}
+.review-carousel .owl-item .review-item{
+    transition: 0.5s;
+}
+.review-carousel .owl-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    font-weight: bold;
+}
+.review-carousel .owl-nav .owl-prev,
+.review-carousel .owl-nav .owl-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.5s;
+    margin-top: -200px !important;
+    z-index: 5;
+    visibility: hidden;
+
+}

@@ -1,0 +1,1146 @@
+.trang1{
+    background-color: #BAE5B9;
+   width: 230px;
+   height: 480px;
+   margin: auto;
+   padding-top: 40px;
+}
+.text1 {
+    color: #BC0A0F;
+}
+.trang1 img {
+  margin-left: 30px;
+}
+.trang1 button{
+    margin-left: 50px;
+    background-color: #AEFFFF;
+    border: 1px solid black;
+}
+.trang2{
+    background-color: #BAE5B9;
+   width: 230px;
+   height: 480px;
+   margin: auto;
+}
+.fs2 {
+    font-size: 10px;
+    font-weight: bold;
+}
+.bus2 {
+    color: #BC0A0F;
+    font-weight: bold;
+    font-size: 18px;
+}
+.dn2 {
+    color: #D71919;
+}
+.texttr2 {
+    font-weight: bold;
+}
+.inpuntr2 {
+    margin: auto;
+}
+.trang2 button{
+    margin-left: 50px;
+    background-color: #AEFFFF;
+    border: 1px solid black;
+}
+.imgtr2 {
+    width: 30px;
+    margin:auto;
+}
+.dktr2 {
+    color: #0066FF;
+    padding-right: 30px;
+}
+.icontr2 {
+   padding-top: 20px;
+   color: #00672F;
+}
+.icontr2 a{
+    color: #00672F;
+}
+.icontr2 i {
+    font-size: 30px;
+}
+.icontr3{
+    color: #00672F;
+    padding-top: 8px;
+ }
+ .icontr3 a {
+    color: #00672F;
+ }
+ .bttr3 {
+       width: 100px;
+ }
+ .bttr4 {
+    margin: auto;
+    width: 100px;
+ }
+ .icontr4{
+    padding-top: 195px;
+    color: #00672F;
+ } 
+ .icontr4 a{
+    color: #00672F;
+ }
+ .icontr5{
+    padding-top: 120px;
+    color: #00672F;
+ } 
+ .icontr5 a {
+    color: #00672F;
+ }
+ .trang6{
+    background-color: #BAE5B9;
+   width: 230px;
+   height: 490px;
+   margin: auto;
+   border: 1px solid;
+}
+.trang6 img{
+width: 112%;
+margin-left: -12px;
+}
+.bttr6 {
+    color: black;
+    border: 1px solid white;
+}
+.postrang6 {
+    height: 40px;
+    position: relative;
+}
+.icontrang6 i {
+    font-size: 30px;
+    position: absolute;
+    top: 4px;
+    left: 6px;
+}
+.tentrang6 {
+    color: #002D4D;
+    font-weight: bold;
+    font-size: 19px;
+}
+.butontrang6{
+    margin-left: 50px;
+    background-color: #ffffff;
+    color: #0066FF;
+    font-weight: bold;
+    border: 1px solid white;
+}
+.butontrang6 a {
+    color: #0066FF;
+}
+.muiten {
+    position: relative;
+}
+.iconmuiten {
+    font-size: 40px;
+    position: absolute;
+    top: 65px;
+    left: 130px;
+}
+.iconmuiten i {
+    margin-right: -20px;
+}
+.mautrang6 i {
+    font-size: 28px;
+    margin-left: 4px;
+    color: #0066FF;
+    margin-top: 10px;
+}
+.mautrang6 p {
+    font-size: 6px;
+    color: #0066FF;
+}
+.menu4trang6 {
+    background-color: #ffffff;
+    width: 111.5%;
+    margin-left: -12px;
+    margin-top: 33px;
+}
+.trang7row {
+    margin: auto;
+    font-size: 6px;
+    margin-top: 20px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    align-items: center;
+    width: 90%;
+}
+.trang7row i{
+    font-size: 25px;
+}
+.lichtrang7 {
+    align-items: center;
+}
+.menutrang7 {
+    font-size: 13px;
+    background-color: #F5FBFF;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid;
+}
+.menutrang7:hover {
+    background-color: #0066FF;
+    border: 1px solid #0066FF;
+    color: white;
+}
+.menutrang7 a:hover {
+    color: white;
+}
+.icontr7 {
+    padding-top: 33px;
+    color: #00672F;
+}
+.icontr7 a{
+    color: #00672F;
+}
+.imgtrang7{
+    margin-top: -10px;
+}
+.bus8 {
+    color: #BC0A0F;
+    font-weight: bold;
+    font-size: 20px;
+}
+.bus8fix {
+    color: #BC0A0F;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: -40px;
+}
+.bus8fixthanhtoan{
+    margin-left: -30px;
+    color: #BC0A0F;
+    font-weight: bold;
+    font-size: 20px;
+}
+.diemkhoihanhtrang8 {
+    font-size: 8px;
+    margin: auto;
+}
+.diemkhoihanhtrang8 span{
+    color: #0066FF;
+}
+.trinhtrangtrang8 {
+    font-size: 20px;
+}
+.trinhtrangtrang8 span {
+    color: #0066FF;
+    font-size: 22px;
+}
+.buttontrang8 {
+    margin-left: 50px;
+}
+.datgheso {
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.buttontrang8 input {
+    padding: 7px 20px;
+    background-color: white;
+    color: #0066FF;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.icontr8 {
+    padding-top: 24px;
+    color: #00672F;
+}
+.icontr8fix {
+    color: #00672F;
+    margin-top: -26px;
+}
+.icontr8fix a {
+    color: #00672F;
+}
+.icontr8 a {
+    color: #00672F;
+}
+.buttontrang8fix {
+    margin-left: 45px;
+
+}
+.buttontrang8fix input {
+    padding: 7px 20px;
+    background-color: white;
+    color: #0066FF;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.menutrang8-1 {
+    font-size: 13px;
+    background-color: #FFCBCB;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #FFCBCB;
+    margin-top: 30px;
+}
+
+.menutrang8-2{
+    font-size: 13px;
+    background-color: #00297A;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #00297A;
+    margin-top: 30px;
+    color: white;
+}
+.menutrang8-2 a{ 
+    color: white;
+}
+.buttondatve9 {
+    margin-left: 60px;
+}
+.buttondatve9 input{
+    padding: 7px 20px;
+    background-color: white;
+    color: #0066FF;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.buttontrang9 input{
+    padding: 7px 29px;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.buttontrang9 {
+    margin-left: 60px;
+}
+.icontr9 {
+    padding-top: 24px;
+    color: #00672F;
+}
+.icontr9 a {
+    color: #00672F;
+}
+.icontr10 {
+    padding-top: 160px;
+    color: #00672F;
+}
+.icontr10 a {
+    color: #00672F;
+}
+.chitietthe {
+    background-color: white;
+    width: 94%;
+    margin: auto;
+    border-radius: 5px;
+}
+.chitietthe input {
+    background-color: #3333;
+    color: black;
+}
+.buttontrang12 input{
+             background-color: white;
+             padding: 4px 12px;
+             border: 1px solid white;
+             border-radius: 5px;
+             color: #0066FF;
+             font-weight: bold;
+}
+.buttontrang12 {
+    margin-left: 50px;
+    margin-top: 6px;
+    position: relative;
+}
+.icontr12{
+    color: #00672F;
+    margin-top: -27px;
+}
+.icontr12 a {
+    color: #00672F;
+}
+.bus13 {
+    color: #BC0A0F;
+    font-weight: bold;
+    margin-top: -10px;
+}
+.icontr13 {
+    color: #00672F;
+    margin-top: 135px;
+}
+.icontr13 a {
+    color: #00672F;
+}
+.icontr14 {
+    padding-top: 87px;
+    color: #00672F;
+}
+.icontr14 a {
+    color: #00672F;
+}
+.bus14 {
+    color: #BC0A0F;
+    font-weight: bold;
+    margin-top: -6px;
+}
+.tentrang15 {
+    color: #00297A
+}
+.tentrang15 span{
+    color: black;
+}
+.texttrang15 {
+    position: relative;
+}
+.tentrang15::after {
+   content: "";
+   position: absolute;
+   border: 1px solid black;
+   width: 97%;
+   top: 50px;
+   left: 1px;
+}
+.texttrang15-2 {
+    position: relative;
+}
+.tentrang15-2::after {
+    content: "";
+    position: absolute;
+    border: 1px solid black;
+    width: 97%;
+    top: 52px;
+    left: 1px;
+ }
+ .tentrang15-2 {
+    color: #00297A;
+    margin-top: -7px;
+ }
+ .tentrang15-2 span {
+    color: black;
+ }
+ .fs-7trang15 {
+    font-size: 13px;
+    margin-top: -6px;
+ }
+ .margintrang15 {
+    margin-top: -20px;
+ }
+ .tentr15 {
+    margin-top: -9px;
+    font-weight: bold;
+    color: #00297A;
+ }
+ .tentr15 span {
+    color: black;
+ }
+ .buttontrang15 input{
+    background-color: white;
+    padding: 4px 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #0066FF;
+    font-weight: bold;
+}
+.buttontrang15 {
+margin-left: 50px;
+margin-top: -7px;
+}
+.icontr15 {
+    margin-top: -25px;
+    color: #00672F;
+}
+.icontr15 a {
+    color: #00672F;
+}
+.menutrang16 div {
+    font-weight: bold;
+    margin: auto;
+}
+.bluetrang16 {
+    color: #0066FF;
+}
+.menutrang16 {
+    border: 1px solid black;
+    padding: 1px;
+    width: 91%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: white;
+}
+.thongtintrang16{
+  margin: auto;
+}
+.thongtintrang16-1{
+    border: 1px solid;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 15px;
+    background-color: #E7FBFF;
+}
+.thongtintrang16-1 span {
+    color: #0066FF;
+}
+.butontrang16 {
+    margin-top: 20px;
+}
+.btntrang16-1 {
+    padding: 5px 70px;
+    font-size: 14px;
+    border: 1px solid white;
+    background-color: white;
+    color: #ff0000;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btntrang16-2 {
+    padding: 5px 16px;
+    font-size: 13px;
+    border: 1px solid white;
+    background-color: white;
+    color: #0066FF;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.trang16{
+    background-color: #BAE5B9;
+   width: 230px;
+   height: 480px;
+   margin: auto;
+   border: 1px solid;
+}
+.mautrang16 i {
+    font-size: 28px;
+    margin-left: 4px;
+    color: #0066FF;
+    margin-top: 10px;
+}
+.mautrang16 p {
+    font-size: 6px;
+    color: #0066FF;
+}
+.menu4trang16 {
+    background-color: #ffffff;
+    width: 111.5%;
+    margin-left: 0px;
+    margin-top: 25px;
+}
+.icontr17 {
+    margin-top: -60px;
+    color: #00672F;
+} 
+.icontr17 a {
+    color: #00672F;
+}
+.imgmap2 {
+    margin-top: 35px
+}
+.mautrang17 i {
+    font-size: 28px;
+    margin-left: 4px;
+    color: #0066FF;
+    margin-top: 10px;
+}
+.mautrang17 p {
+    font-size: 6px;
+    color: #0066FF;
+}
+.menu4trang17 {
+    background-color: #ffffff;
+    width: 111.5%;
+    margin-left: -12px;
+    margin-top: 16px;
+}
+.capnhat {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 6px;
+}
+.capnhat i {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.datlai button {
+    padding: 2px 18px;
+    background-color: #28276F;
+    border: 1px solid #00297A;
+    margin-left: 55px;
+    color: white;
+}
+.danhgiatr18{
+    font-size: 12px;
+    margin-top: 3px;
+}
+.ykientrang18 {
+    font-size: 9px;
+    padding-top: 7px;
+    font-weight: 600;
+}
+.datlai {
+    padding: 12px;
+    background-color: white;
+    width: 96%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.mautrang18 i {
+    font-size: 28px;
+    margin-left: 4px;
+    color: #0066FF;
+    margin-top: 10px;
+}
+.mautrang18 p {
+    font-size: 6px;
+    color: #0066FF;
+}
+.menu4trang18 {
+    background-color: #ffffff;
+    width: 111.5%;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+.xemchitiettrang19{
+    margin-top: -15px;
+    color: #0066FF;
+}
+.xemchitiettrang19 a {
+    color: #0066FF;
+}
+.xemchitiettrang19 i {
+    font-size: 25px;
+    color: #D71919;
+    margin-left: 25px;
+}
+.thongbaotrang19{
+    padding: 4px 21px;
+    background-color: white;
+    width: 96%;
+    margin: auto;
+    margin-top: 25px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.mautrang19 i {
+    font-size: 28px;
+    margin-left: 5px;
+    color: #0066FF;
+    margin-top: 10px;
+}
+.mautrang19 p {
+    font-size: 6px;
+    color: #0066FF;
+}
+.menu4trang19 {
+    background-color: #ffffff;
+    width: 111.5%;
+    margin-left: 0px;
+    margin-top: 236px;
+}
+.bus20{
+    color: #BC0A0F;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: -22px;
+}
+.thongbaotrang20{
+    background-color: white;
+    width: 96%;
+    margin: auto;
+    margin-top: 25px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.thongbaotrang20 p {
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        padding: 29px 10px;
+}
+.icontr20 {
+    margin-top: -2px;
+    color: #00672F;
+} 
+.icontr20 a {
+    color: #00672F;
+}
+.mautrang20 i {
+    font-size: 28px;
+    margin-left: 5px;
+    color: #0066FF;
+    margin-top: 10px;
+}
+.mautrang20 p {
+    font-size: 6px;
+    color: #0066FF;
+}
+.menu4trang20 {
+    background-color: #ffffff;
+    width: 111.5%;
+    margin-left: 0px;
+    margin-top: 250px;
+}
+.bus21{
+    color: #BC0A0F;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -8px;
+}
+.thongtintrang21{
+    margin-top: -15px;
+    font-size: 13px;
+}
+.khactrang21 {
+      font-size: 13px;
+      margin-top: -13px;
+}
+.thongtinvakhac{
+    margin-left: 0.5px;
+}
+.butontrang21 {
+    margin-top: 13px;
+}
+.btntrang21-1 {
+    padding: 5px 20px;
+    font-size: 14px;
+    border: 1px solid white;
+    background-color: white;
+    color:  #ff0000;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+.btntrang21-2 {
+    padding: 5px 16px;
+    font-size: 13px;
+    border: 1px solid white;
+    background-color: white;
+    color: #0066FF;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.mautrang21 i {
+    font-size: 28px;
+    margin-left: 5px;
+    color: #0066FF;
+    margin-top: 10px;
+}
+.mautrang21 p {
+    font-size: 6px;
+    color: #0066FF;
+}
+.menu4trang21 {
+    background-color: #ffffff;
+    width: 111.5%;
+    margin-left: 0px;
+    margin-top: 29px;
+}
+.bus22{
+    color: #BC0A0F;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: -14px; 
+}
+.buttontrang22 input{
+    background-color: white;
+    padding: 4px 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #0066FF;
+    font-weight: bold;
+}
+.buttontrang22 {
+margin-left: 50px;
+margin-top: 6px;
+position: relative;
+}
+.chitietthetr22 input {
+    padding:10px ;
+}
+.buttontrang22red {
+    margin-left: 50px;
+    margin-top: 6px;
+    position: relative;
+    }
+.buttontrang22red  input{
+    background-color: white;
+    padding: 4px 36px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #D71919;
+    font-weight: bold;
+}
+.trang22{
+    background-color: #BAE5B9;
+   width: 230px;
+   height: 480px;
+   margin: auto;
+}
+.trang26{
+    background-color: #BAE5B9;
+   width: 230px;
+   height: 480px;
+   margin: auto;
+}
+.trang26qltx {
+    background-color: #BAE5B9;
+    width: 230px;
+    height: 530px;
+    margin: auto;
+}
+.trang26phkh  {
+    background-color: #BAE5B9;
+    width: 230px;
+    height: 535px;
+    margin: auto;
+}
+.trang26datveqlnx {
+    background-color: #BAE5B9;
+    width: 230px;
+    height: 535px;
+    margin: auto;
+}
+.DNQLNHAXE {
+    color: #BC0A0F;
+    padding-top: 25px;
+    font-weight: bold;
+}
+.inputsdt input{
+   width: 100%;
+   padding-top: -20px;
+}
+.butontrang26{
+    background-color: #AEFFFF;
+    color: black;
+    margin-left: 50px;
+}
+.icontr27 {
+    margin-top: -40px;
+    color: #00672F;
+} 
+.icontr27 a {
+    color: #00672F;
+}
+.buttontrang27 button {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    font-weight: bold;
+}
+.buttontrang27 button  a:hover {
+   color: white;
+}
+.buttontrang28 {
+    margin-left: 40px;
+
+}
+.buttontrang28 input {
+    padding: 7px 20px;
+    background-color: white;
+    color: #0066FF;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+.icontr28 {
+    margin-top: -46px;
+    color: #00672F;
+} 
+.icontr28khdd {
+    margin-top: -40px;
+    color: #00672F;
+}
+.icontr28khdd a{
+    color: #00672F;
+}
+.icontr28 a {
+    color: #00672F;
+}
+.DNQLNHAXEtrang29{
+    color: #BC0A0F;
+    padding-top: 25px;
+    font-weight: bold;
+    padding-left: 13px;
+}
+.trangqlsc {
+    background-color: #BAE5B9;
+    width: 230px;
+    height: 520px;
+    margin: auto;
+}
+.sochuyenxetr29 p{
+    font-size: 12px;
+}
+.sochuyenxetr29 input {
+     margin-top: -22px;
+    color: #0066FF;
+    font-weight: bold;
+}
+.khongtrang29 p{
+    font-size: 13px;
+    font-weight: bold;
+}
+.khongtrang29 input{
+    background-color: #FFBABA;
+    border: 1px solid;
+    color: #0066FF;font-weight: bold;
+   margin-top: 4px;
+}
+.DNQLNHAXEtrang30 {
+    color: #BC0A0F;
+    padding-top: 25px;
+    font-weight: bold;
+    padding-left: 19px;
+    font-size: 13px;
+}
+.DNQLNHAXEtrang30khdd {
+    color: #BC0A0F;
+    padding-top: 16px;
+    font-weight: bold;
+    padding-left: 19px;
+    font-size: 12px;
+
+}
+.hetvetrang30{
+    color: #D71919;
+}
+.menukhachhang30{
+     font-size: 10px;
+     font-weight: bold;
+
+}
+.menukhachhang30 p {
+    background-color: #FFBABA;
+    padding: 10px;
+    border-radius: 5px;
+}
+.icontrang30{
+    font-size: 25px;
+    margin-top: -10px;
+}
+.menukhachhang30chitiet{
+    font-size: 10px;
+    margin-top: -10px;
+}
+.menukhachhang30chitiet p {
+    padding: 10px;
+}
+.menukhachhang30chitiet1 {
+    font-size: 10px;
+    margin-top: -25px;
+}
+.menukhachhang30chitiet1 {
+    padding: 10px;
+}
+.trang30{
+    background-color: #BAE5B9;
+   width: 230px;
+   height: 610px;
+   margin: auto;
+}
+
+.DNQLNHAXEtrang31{
+    color: #BC0A0F;
+    padding-top: 25px;
+    font-weight: bold;
+    padding-left: 21px;
+}
+.trang31{
+    background-color: #BAE5B9;
+    width: 230px;
+    height: 760px;
+    margin: auto;
+}
+.chitiet31 span {
+    background-color: #FFBABA !important;
+    color: black !important;
+    padding: 0px 7px;
+    position: relative;
+    border-radius: 7px;
+}
+.chitiet31 p {
+    position: relative;
+    top: 7px;
+}
+.chitiet31 p:hover {
+    background-color: #0066FF;
+    color: white;
+    border-radius: 6px;
+}
+.trang32{
+    background-color: #BAE5B9;
+    width: 230px;
+    height: 480px;
+    margin: auto;
+}
+.thongtinxacnhan31-1 button{
+    font-size: 10px;
+    background-color: #FFBABA;
+    color: black;
+    border: 1px solid #FFBABA;
+    font-weight: 600;
+}
+.thongtinxacnhan31-2 button {
+    font-size: 7px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.thongtinxacnhan31-2 span button {
+    background-color: #D71919;
+    color: white;
+    border:  1px solid #D71919;
+}
+.tinhtrangve {
+    margin-top: -16px;
+}
+.thongtinxacnhan31 {
+    margin-top: -13px;
+}
+.thongtinxacnhan31-2-end button {
+    font-size: 7px;
+    margin-top: 10px;
+    font-weight: 600;
+    background-color: white;
+    color: #0066FF;
+    border: 1px solid white;
+}
+.thongtinxacnhan31-2-end span button {
+    background-color: #D71919;
+    color: white;
+    border:  1px solid #D71919;
+}
+.DNQLNHAXE33{
+    color: #BC0A0F;
+    padding-top: 20px;
+    font-weight: bold;
+    padding-left: 24px;
+}
+.thongtintrang33{
+    font-weight: bold;
+    font-size: 14px;
+}
+.tuyenduong33{
+ font-size: 15px;
+ display: flex;
+ font-weight: bold;
+ justify-content: space-between;
+ padding: 0px 15px;
+ background-color: white;
+ border: 1px solid #AE2A2A;
+ border-radius: 5px;
+}
+.tuyenduong33 i {
+    font-size: 20px;
+    padding-top: 15px;
+}
+.tuyenduong33 p {
+    padding-top: 12px;
+}
+.tram33 {
+    font-size: 15px;
+}
+.diachi33 {
+    font-size: 15px;
+}
+.diachi33 i {
+    font-size: 25px;
+    padding-top: 10px;
+    color: #BD2626;
+}
+.khoanhcach33 {
+    margin-top: -5px;
+} 
+.icontr34{
+    margin-top: -80px;
+    color: #00672F;
+}
+.icontr34 a {
+    color: #00672F;
+}
+.saotrang34 i{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.saotrang34top {
+    font-size: 30px;
+    font-weight: bold;
+}
+.saotrang34 {
+    padding-top: 6px;
+}
+.saotrang34button span {
+    color: #1A62CF;
+}
+.saotrang34-1 {
+    margin-top: -7px;
+}
+.avttrang34{
+    display: flex;
+    justify-content: space-between;
+}
+.avttrang34 img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.avttrang34 p {
+    font-size: 11px;
+    padding-top: 7px;
+    font-weight: bold;
+}
+.startrang34 {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.startrang34 span {
+    color: #1A62CF;
+}
+.phanhoitrang34 {
+    color: #010F88;
+    padding-left: 133px;
+}
+.danhgiatrang34  {
+    margin-top: -10px;
+    font-weight: bold;
+}
+.danhgiatrang34bt {
+    margin-top: -10px;
+    margin-left: 67px;
+}
+.danhgiatrang34bt button {
+    padding: 0px 7px;
+    margin-left: 17px;
+    background-color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.danhgiabttrang34span button {
+    background-color: #00672F;
+    color: white; font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #00672F;
+}
+.danhgiatrang34bt button:hover {
+    background-color: #0066FF;
+    border:  1px solid #0066FF;
+     color: white;
+}
+.phanhoivadanhgia{
+    margin-top: 33px;
+    padding-left: 7px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BoxIcons v2.1.2 -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+<!-- ionicon -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<style>
+    .hoverproduct:hover{
+        background-color: rgba(122, 122, 122, 0.9)  !important;
+        color: white !important;
+        transform: scale(1.02);
+    }
+    .dark:focus {
+        transform: translateX(300%);
+    }
+    .homebt:hover {
+        background-color: gray ;
+        transition: all .3s ;
+    }
+    .homebt{
+        background-color: #0E1E2D;
+    }
+    .toggle {
+        width: 128px;
+        height: 36px;
+        background-color: #0E1E2D;
+        border-radius: 60px;
+        position: relative;
+        cursor: pointer;
+        
+    }
+    .toggle.active::before {
+        left: 94px;
+        background-color: white;
+    }
+    .toggle.active{
+        background-color:  rgb(0, 224, 0);
+    }
+    .toggle::before {
+        content: '';
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        top: 5px;
+        left: 7px;
+        transition: all .9s ease-in-out;
+    }
+    .doimaubody.dark {
+        background-color: #13263D ;
+        color: white;
+        transition: all .8s ease-in-out !important;
+    }
+    #doimaubt1.dark{
+       background-color: rgb(0, 224, 0);
+       color: #0E1E2D;
+       font-weight: bold;
+    }
+    #doimaubt1.dark:hover{
+       color: rgb(0, 224, 0) !important;
+       background-color: #0E1E2D !important;
+    }
+    #doimaubt2.dark:hover{
+       color: rgb(0, 224, 0) !important;
+       background-color: #0E1E2D !important;
+    }
+    #doimaubt2.dark{
+       background-color: rgb(0, 224, 0);
+       color: #0E1E2D;
+       font-weight: bold;
+    }
+    .doimaufact1.dark {
+        background-color: rgb(111, 111, 111) !important;
+        color: white !important;
+        border: 1px solid rgb(111, 111, 111) !important;
+    }
+    .doimaufact2.dark {
+        background-color: rgb(111, 111, 111) !important;
+        color: white !important;
+        border: 1px solid rgb(111, 111, 111) !important;
+    }
+    .doimaufact3.dark {
+        background-color: rgb(111, 111, 111) !important;
+        color: white !important;
+        border: 1px solid rgb(111, 111, 111) !important;
+    }
+    .doimaufact4.dark {
+        background-color: rgb(111, 111, 111) !important;
+        color: white !important;
+        border: 1px solid rgb(111, 111, 111) !important;
+    }
+   .darkbordert1.dark{
+    border-top: 1px solid white !important;
+   }
+   .darkbordert2.dark{
+    border-top: 1px solid white !important;
+   }
+   .darkbordert3.dark{
+    border-top: 1px solid white !important;
+   }
+   .darkbordert4.dark{
+    border-top: 1px solid white !important;
+   }
+   .darkbordert5.dark{
+    border-top: 1px solid white !important;
+   }
+   .darkbordert6.dark{
+    border-top: 1px solid white !important;
+   }
+   .darkbordert7.dark{
+    border-top: 1px solid white !important;
+   }
+   .darkbordert8.dark{
+    border-top: 1px solid white !important;
+   }
+   .darkmoon.dark{
+    color: white;
+   }
+</style>
+<body >
+<!-- chia 2 cot -->
+<div class="md:flex md:flex-row" id="home">
+    <!-- menunav ben trai -->
+    <div class="md:w-1/4 md:fixed md:top-0 md:left-0 w-2/3 fixed top-16 border-t-4 border-green-600 md:border-none  md:visible invisible transition duration-500 z-10 " id="menu">
+        <section>
+            <div class="text-white md:h-screen  px-4 md:pt-9 pt-12 h-screen " style="background-color: #0E1E2D;" >
+                    <!-- avt -->
+                    <img src="img/img2.jpg" alt="" class="w-28 md:w-36 object-cover mx-auto rounded-full border-solid border-4 border-gray-400 cursor-pointer">
+                    <!-- text -->
+                    <p class="pt-5 font-bold text-center md:text-2xl text-xl">Tran Trung Nguyen</p>
+                    <!-- icon -->
+                    <div class="pt-3 text-center">
+                        <i class="fa fa-facebook-square text-xl border rounded-full px-2 py-1 mx-1 bg-gray-600 border-gray-600 hover:text-blue-950 hover:bg-green-600 transition duration-300 ease-in-out cursor-pointer" aria-hidden="true"></i>
+                        <i class="fa fa-instagram text-xl border rounded-full px-2 py-1 mx-1 bg-gray-600 border-gray-600 hover:text-blue-950 hover:bg-green-600 transition duration-300 ease-in-out cursor-pointer" aria-hidden="true"></i>
+                        <i class="fa fa-twitter text-xl border rounded-full px-2 py-1 mx-1 bg-gray-600 border-gray-600 hover:text-blue-950 hover:bg-green-600 transition duration-300 ease-in-out cursor-pointer" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin-square text-xl border rounded-full px-2 py-1 mx-1 bg-gray-600 border-gray-600 my-2 hover:text-blue-950 hover:bg-green-600 transition duration-300 ease-in-out cursor-pointer" aria-hidden="true"></i>
+                    </div>
+                    <!-- navmneu -->
+                    <div class="pt-10 md:pt-4">
+                        <!-- home -->
+                        <div class="flex items-center hover:text-green-600 transition duration-300 ease-in-out cursor-pointer">
+                            <i class="fa fa-home text-3xl " aria-hidden="true"></i>
+                            <p class="text-xl mx-3 font-semibold " ><a href="#home" >Home</a></p>
+                        </div>
+                        <!-- Profile -->
+                        <div class="flex items-center pt-2 md:pt-3 hover:text-green-600 transition duration-300 ease-in-out cursor-pointer">
+                            <i class="fa fa-user-circle-o text-2xl" aria-hidden="true"></i>
+                            <p class="text-xl mx-3 font-semibold "><a href="#profile">Profile</a></p>
+                        </div>
+                        <!-- Products -->
+                        <div class="flex items-center pt-2 md:pt-3 hover:text-green-600 transition duration-300 ease-in-out cursor-pointer">
+                            <i class="fa fa-sitemap text-2xl" aria-hidden="true"></i>
+                            <p class="text-xl mx-3 font-semibold "><a href="#cacsanpham">Products</a></p>
+                        </div>
+                        <!-- Setting -->
+                        <div class="flex items-center pt-2 md:pt-3 hover:text-green-600 transition duration-300 ease-in-out cursor-pointer">
+                            <i class="fa fa-cog text-3xl" aria-hidden="true"></i>
+                            <p class="text-xl mx-3 font-semibold "><a href="#setting">Setting</a></p>
+                        </div>
+                        <!-- Contact -->
+                        <div class="flex items-center pt-2 md:pt-3 hover:text-green-600 transition duration-300 ease-in-out cursor-pointer">
+                            <i class="fa fa-envelope text-2xl" aria-hidden="true"></i>
+                            <p class="text-xl mx-3 font-semibold "><a href="#contact">Contact</a></p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </div><!-- het phan menunav ben trai -->
+    <!-- phannoidung ben phai -->
+    <div class="md:basis-3/4 md:ms-auto bg-slate-100 doimaubody">
+        <!-- phan menu co dinh cho mobile --> 
+        <div class="fixed h-16 w-full flex items-center md:invisible text-white px-6 z-10" style="background-color: #0E1E2D;">
+            <!-- phan icon -->
+            <!-- <i class="fa fa-bars text-5xl cursor-pointer hover:text-green-700 transition duration-300 ease-in-out " aria-hidden="true" id="menubutton"></i> -->
+            <ion-icon name="menu" onclick="Menu(this)" class="text-5xl cursor-pointer hover:text-green-700 transition duration-300 ease-in-out" id="menubutton"></ion-icon>
+        </div> <!--het phan menu co dinh cho mobile -->
+        <!-- phan di chuyen cho mobile -->
+        <div class="px-6 md:px-6 ">
+            <!-- home --> 
+            <div class="md:flex md:flex-row md:items-center md:gap-x-7 ">
+                <!-- img banner -->                         
+                <div>
+                    <img src="img/img1.jpg" alt="" class="mx-auto pt-20 md:pt-10 md:w-full ">
+                </div> 
+                <div>
+                    <!-- gioithieu -->
+                    <div>
+                        <h1 class="font-bold text-2xl pt-9 ">Hi, I’am Trung Nguyen Tran</h1>
+                        <p class="text-xl  pt-5 font-mono italic" style="color: #0058A9;">Frontend Developer</p>
+                        <p class="pt-3 font-sans ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae quam soluta! Labore vitae, rem ratione voluptatum illo sunt iste quos accusantium dolorem aliquam ducimus natus temporibus asperiores, quasi perferendis?</p>
+                    </div>
+                    <!-- buttoncv and letalk -->
+                    <div class="flex  pt-5 justify-center gap-x-3 md:gap-x-9 ">
+                        <button  class="md:py-2 md:px-5 py-2 px-3 text-white rounded-md homebt " id="doimaubt1">Download CV</button>
+                        <button class="md:py-2 md:px-9 py-2 px-7 text-white rounded-md homebt" id="doimaubt2">Let's Talk</button>
+                    </div>
+                </div>           
+            </div> <!-- home -->               
+                <!-- hr --><hr class="h-0.5 mt-14" style="background-color: #0058A9;" id="profile">
+            <!-- profile -->
+            <section >
+                <!-- profiletext -->
+                <div>
+                    <h2 class="pt-12 text-2xl font-semibold" style="color: #0058A9;">Profile</h2>
+                    <hr class=" h-1 w-16 " style="background-color: #0058A9;">
+                    <p class="text-base pt-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsa, asperiores recusandae ratione ullam officiis sapiente in aspernatur, magnam laboriosam repellendus? Placeat nesciunt dicta ducimus alias harum et consequuntur neque!</p>
+                </div>
+                <!-- flex cot -->
+                <div class="md:flex md:flex-row gap-x-2 md:items-center">  
+                    <!-- chia 2 cot (ben trai)-->
+                    <div class="pt-6 basis-1/3 order-1 md:order-2">
+                        <!-- img profile -->
+                        <img src="img/imgprofile.jpg" alt="">
+                    </div> <!-- chia 2 cot (ben trai) -->
+                    <!-- chia 2 cot (ben phai)-->     
+                    <div class="basis-2/3 order-2 md:order-1" >
+                        <!-- designer and web developer -->
+                        <h3 class="pt-6 text-xl font-semibold" style="color: #0058A9;">Designer & Web Developer</h3>
+                        <p class="text-base pt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. ducimus natus temporibus </p>
+                        <!-- thong tin profile -->
+                        <div class="md:flex md:flex-wrap md:items-center pt-6 md:pt-6 md:gap-y-2 md:gap-x-">
+                            <div class=" md:basis-1/2 ">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="font-bold">Birthday: </span> <span>18 Oct 2003</span>
+                            </div>
+                            <div class="pt-2 md:basis-1/2 ">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="font-bold">Website: </span> <span>www.nguyentt.com</span>
+                            </div>
+                            <div class="pt-2 md:basis-1/2 ">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="font-bold">Phone: </span> <span>0123456789</span>
+                            </div>
+                            <div class="pt-2 md:basis-1/2">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="font-bold">City: </span> <span>Nha Trang</span>
+                            </div>
+                            <div class="pt-2 md:basis-1/2">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="font-bold">Age: </span> <span>22+</span>
+                            </div>
+                            <div class="pt-2 md:basis-1/2"> 
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="font-bold">Degree: </span> <span>Bachelor</span>
+                            </div>
+                            <div class="pt-2 md:basis-1/2">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="font-bold">Email: </span> <span>trungquanpr999@gamil.com</span>
+                            </div>
+                            <div class="pt-2 md:basis-1/2">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="font-bold">Freelance: </span> <span>Available</span>
+                            </div>
+                        </div>
+                    </div> <!-- chia 2 cot (ben phai) -->
+                </div> <!-- flex cot -->
+                <!-- fact -->
+                <h2 class="pt-6 text-xl font-bold" style="color: #0058A9;">Fact</h2>
+                <hr class="h-1 w-11" style="background-color: #0058A9;">
+                <p class="text-base pt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae quam soluta! Labore vitae, rem ratione voluptatum illo sunt iste quos accusantium dolorem aliquam ducimus natus temporibus asperiores, quasi perferendis?</p>
+                <!-- iconfact -->
+                <div class="pt-6 flex flex-wrap md:flex-row justify-center ">
+                    <!-- happy -->
+                    <div class="basis-1/2 md:basis-1/4 border bg-slate-300 rounded-xl p-3 doimaufact1">
+                        <div class="flex flex-row items-center gap-x-3">
+                            <!-- icon -->
+                            <i class="fa fa-smile-o font-semibold text-3xl" aria-hidden="true"></i>
+                            <!-- texticon -->
+                            <p class="text-xl font-semibold" style="color: #0058A9;">223</p>
+                        </div>
+                            <!-- text -->
+                            <p>Happy Clients consequuntur quea </p>
+                    </div>
+                    <!-- project -->
+                    <div class="basis-1/2 md:basis-1/4 border bg-slate-300 rounded-xl p-3 doimaufact2">
+                        <div class="flex flex-row items-center gap-x-3">
+                            <!-- icon -->
+                            <i class="fa fa-sticky-note font-semibold text-3xl" aria-hidden="true"></i>
+                            <!-- texticon -->
+                            <p class="text-xl font-semibold" style="color: #0058A9;">550</p>
+                        </div>
+                            <!-- text -->
+                            <p>Project adipisc atque lorem</p>
+                    </div>
+                    <!-- music -->
+                    <div class="basis-1/2 md:basis-1/4 border bg-slate-300 rounded-xl p-3 doimaufact3">
+                        <div class="flex flex-row items-center gap-x-3">
+                            <!-- icon -->
+                            <i class="fa fa-music font-semibold text-3xl" aria-hidden="true"></i>
+                            <!-- texticon -->
+                            <p class="text-xl font-semibold " style="color: #0058A9;">2123</p>    
+                        </div>
+                            <!-- text -->
+                            <p>Music Lorem ipsum dolor </p>
+                    </div>
+                    <!-- hard -->
+                    <div class="basis-1/2 md:basis-1/4 border bg-slate-300 rounded-xl p-3 doimaufact4">
+                        <div class="flex flex-row items-center gap-x-3">
+                            <!-- icon -->
+                            <i class="fa fa-users font-semibold text-3xl" aria-hidden="true"></i>
+                            <!-- texticon -->
+                            <p class="text-xl font-semibold" style="color: #0058A9;">2123</p>
+                        </div>
+                            <!-- text -->
+                            <p>Hard Workers return</p>
+                    </div>
+                </div>
+            </section> <!-- profile -->
+            <hr class=" h-0.5 mt-14" style="background-color:  #0058A9;" id="cacsanpham">
+            <!-- myproducts -->
+            <section >
+                <!-- logoproduct -->
+                <h3 class="text-xl font-bold pt-14" style="color: #0058A9;">My Products</h3>
+                <hr class="h-1 w-32" style="background-color: #0058A9;">
+                <!-- cac sam pham -->
+                <div class="pt-9 md:flex md:flex-wrap gap-x-10 md:justify-center xl:justify-center md:gap-y-10 cursor-pointer " >
+                    <!-- boxproduct 1-->
+                    <div class="border rounded-xl md:basis-1/2 xl:basis-1/3 2xl:basis-1/4 h-full">
+                        <!-- imgproduct -->
+                        <img src="img/boxproduct1.png" alt="" class="mx-auto rounded-t-lg w-full">
+                        <div class="p-3">
+                            <!-- text -->
+                            <p class="font-bold text-center" style="color:#0E1E2D">Shop ABC</p>
+                            <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat ipsum reprehenderit nisi soluta nostrum iure sint aspernatur assumenda.</p>
+                        </div>
+                        <!-- view -->
+                        <div class="gap-x-3 rounded-b-lg py-2 text-white flex items-center justify-center  :hover:text-green-600 transition ease-in-out duration-500 hoverproduct darkbordert1" style="background-color: #0E1E2D;" onclick="boxproduct1()">
+                            <!-- icon-->
+                            <i class="fa fa-eye text-2xl " aria-hidden="true" ></i>
+                            <span class="text-xl ">View</span>
+                        </div>
+                    </div>
+                    <!-- boxproduct 2 -->
+                    <div class="border rounded-xl  md:basis-1/2 xl:basis-1/3 2xl:basis-1/4 my-9 md:my-0 h-full">
+                        <!-- imgproduct -->
+                        <img src="img/boxproduct2.png" alt="" class="mx-auto rounded-t-lg w-full ">
+                        <div class="p-3">
+                            <!-- text -->
+                            <p class="font-bold text-center" style="color:#0E1E2D">Noodel</p>
+                            <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat ipsum reprehenderit nisi soluta nostrum iure sint aspernatur assumenda.</p>
+                        </div>
+                        <!-- view -->
+                        <div class="gap-x-3 rounded-b-lg py-2 text-white flex items-center justify-center  hover:text-green-600 transition ease-in-out duration-500 hoverproduct darkbordert2" style="background-color: #0E1E2D;"  onclick="boxproduct2()" >
+                            <!-- icon-->
+                            <i class="fa fa-eye text-2xl" aria-hidden="true"></i>
+                            <span class="text-xl">View</span>
+                        </div>
+                    </div>
+                    <!-- boxproduct 3 -->
+                    <div class="border rounded-xl  md:basis-1/2 xl:basis-1/3 2xl:basis-1/4 my-9 md:my-0 h-full">
+                        <!-- imgproduct -->
+                        <img src="img/boxproduct3.png" alt="" class="mx-auto rounded-t-lg w-full">
+                        <div class="p-3">
+                            <!-- text -->
+                            <p class="font-bold text-center" style="color:#0E1E2D">EAT HEATHY</p>
+                            <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat ipsum reprehenderit nisi soluta nostrum iure sint aspernatur assumenda.</p>
+                        </div>
+                        <!-- view -->
+                        <div class="gap-x-3 rounded-b-lg py-2 text-white flex items-center justify-center  hover:text-green-600 transition ease-in-out duration-500 hoverproduct darkbordert3" style="background-color: #0E1E2D;"  onclick="boxproduct3()" >
+                            <!-- icon-->
+                            <i class="fa fa-eye text-2xl" aria-hidden="true"></i>
+                            <span class="text-xl">View</span>
+                        </div>
+                    </div>
+                    <!-- boxproduct 4-->
+                    <div class="border rounded-xl  md:basis-1/2 xl:basis-1/3 2xl:basis-1/4 my-9 md:my-0 h-full">
+                        <!-- imgproduct -->
+                        <img src="img/boxproduct4.png" alt="" class="mx-auto rounded-t-lg w-full">
+                        <div class="p-3">
+                                <!-- text -->
+                                <p class="font-bold text-center" style="color:#0E1E2D">PetShop</p>
+                                <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat ipsum reprehenderit nisi soluta nostrum iure sint aspernatur assumenda.</p>
+                            </div>
+                            <!-- view -->
+                            <div class="gap-x-3 rounded-b-lg py-2 text-white flex items-center justify-center  hover:text-green-600 transition ease-in-out duration-500 hoverproduct darkbordert4" style="background-color: #0E1E2D;" onclick="boxproduct4()" >
+                            <!-- icon-->
+                            <i class="fa fa-eye text-2xl" aria-hidden="true"></i>
+                            <span class="text-xl">View</span>
+                    </div>
+                    </div>
+                    <!-- boxproduct 5-->
+                    <div class="border rounded-xl  md:basis-1/2 xl:basis-1/3 2xl:basis-1/4 my-9 md:my-0 h-full">
+                        <!-- imgproduct -->
+                        <img src="img/boxproduct5.png" alt="" class="mx-auto rounded-t-lg w-full">
+                        <div class="p-3">
+                            <!-- text -->
+                            <p class="font-bold text-center" style="color:#0E1E2D">Shop ABC</p>
+                            <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat ipsum reprehenderit nisi soluta nostrum iure sint aspernatur assumenda.</p>
+                        </div>
+                        <!-- view -->
+                        <div class="gap-x-3 rounded-b-lg py-2 text-white flex items-center justify-center  hover:text-green-600 transition ease-in-out duration-500 hoverproduct darkbordert5" style="background-color: #0E1E2D;" onclick="boxproduct5()" >
+                            <!-- icon-->
+                            <i class="fa fa-eye text-2xl" aria-hidden="true"></i>
+                            <span class="text-xl">View</span>
+                        </div>
+                    </div>
+                    <!-- boxproduct 6-->
+                    <div class="border rounded-xl md:basis-1/2 xl:basis-1/3 2xl:basis-1/4 my-9 md:my-0 h-full">
+                        <!-- imgproduct -->
+                        <img src="img/boxproduct6.png" alt="" class="mx-auto rounded-t-lg w-full">
+                        <div class="p-3">
+                        <!-- text -->
+                            <p class="font-bold text-center" style="color:#0E1E2D">Bus Love App</p>
+                            <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat ipsum reprehenderit nisi soluta nostrum iure sint aspernatur assumenda.</p>
+                        </div>
+                        <!-- view -->
+                        <div class="gap-x-3 rounded-b-lg py-2 text-white flex items-center justify-center  hover:text-green-600 transition ease-in-out duration-500 hoverproduct darkbordert6" style="background-color: #0E1E2D;" onclick="boxproduct6()" >
+                            <!-- icon-->
+                            <i class="fa fa-eye text-2xl" aria-hidden="true"></i>
+                            <span class="text-xl">View</span>
+                        </div>
+                    </div>
+                    <!-- boxproduct 7-->
+                    <div class="border rounded-xl md:basis-1/2 xl:basis-1/3 2xl:basis-1/4 my-9 md:my-0 h-full">
+                        <!-- imgproduct -->
+                        <img src="img/boxproduct7.png" alt="" class="mx-auto rounded-t-lg w-full">
+                        <div class="p-3">
+                        <!-- text -->
+                            <p class="font-bold text-center" style="color:#0E1E2D">Travel</p>
+                            <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat ipsum reprehenderit nisi soluta nostrum iure sint aspernatur assumenda.</p>
+                        </div>
+                        <!-- view -->
+                        <div class="gap-x-3 rounded-b-lg py-2 text-white flex items-center justify-center  hover:text-green-600 transition ease-in-out duration-500 hoverproduct darkbordert7" style="background-color: #0E1E2D;" onclick="boxproduct7()" >
+                            <!-- icon-->
+                        <i class="fa fa-eye text-2xl" aria-hidden="true"></i>
+                        <span class="text-xl">View</span>
+                        </div>
+                    </div>
+                    <!-- boxproduct 8-->
+                    <div class="border rounded-xl  md:basis-1/2 xl:basis-1/3 2xl:basis-1/4 my-9 md:my-0 h-full">
+                        <!-- imgproduct -->
+                        <img src="img/boxproduct8.png" alt="" class="mx-auto rounded-t-lg w-full">
+                        <div class="p-3">
+                        <!-- text -->
+                            <p class="font-bold text-center" style="color:#0E1E2D">SMARKET</p>
+                            <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat ipsum reprehenderit nisi soluta nostrum iure sint aspernatur assumenda.</p>
+                        </div>
+                        <!-- view -->
+                        <div class="gap-x-3 rounded-b-lg py-2 text-white flex items-center justify-center  hover:text-green-600 transition ease-in-out duration-500 hoverproduct darkbordert8" style="background-color: #0E1E2D;" onclick="boxproduct8()" >
+                            <!-- icon-->
+                            <i class="fa fa-eye text-2xl" aria-hidden="true"></i>
+                            <span class="text-xl">View</span>
+                        </div>
+                    </div>
+                </div> <!-- het cac sam pham -->
+            </section> <!-- myproducts -->
+            <hr class="h-0.5 mt-16 " style="background-color: #0058A9;" id="setting">
+            <!-- setting -->
+            <div class="pt-14" >
+                <!-- logosetting -->
+                <h3 class="text-xl font-bold" style="color: #0058A9;">Setting</h3>
+                <hr class="h-1 w-16" style="background-color: #0058A9;">
+                    <div class="flex flex-row items-center pt-9 gap-x-6">
+                        <!-- icon -->
+                        <ion-icon name="moon" class="font-bold text-5xl text-blue-950 darkmoon"></ion-icon>
+                            <div>
+                                        <!-- <a href="#" class="bg-green-600 relative px-9 py-1 rounded-s-2xl rounded-e-2xl">
+                                            <p class="absolute bg-white rounded-full end-0 top-0 px-2.5 py-2.5 mt-1 me-1"></p>
+                                        </a> -->
+                                        <!-- <label for="check"  class="relative px-12 py-1 rounded-s-2xl rounded-e-2xl shadow-2xl focus:outline-none " style="background-color: #0E1E2D;" onclick="toggleTheme()">
+                                            <span id="switch-toggle" class="absolute bg-white rounded-full start-0 top-0 px-2.5 py-2.5 mt-1 translate-x-2" ></span>
+                                        </label> -->
+                                        <!-- <button class=" w-32 h-9 rounded-2xl bg-white flex items-center transition duration-300 focus:outline-none shadow" style="background-color: #0E1E2D;" onclick="toggleTheme()">
+                                            <div id="switch-toggle"  class=" w-7 h-7  rounded-full transition duration-500 bg-yellow-500 text-white translate-x-2 p-0.5">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                                                </svg>
+                                            </div>
+                                        </button> -->
+                                    <div class="toggle"></div>
+                            </div>
+                    </div>
+            </div>  <!-- het phan setting -->
+        </div> <!-- het phan di chuyen cho mobile -->
+            <!-- contact -->
+            <section class="mt-16 p-6 py-10 md:py-6 text-white md:border-2 md:border-green-500 " style="background-color: #0E1E2D;" >
+                <h3 class="font-bold text-xl text-white " id="contact" >Contact</h3>
+                <hr class="w-20 h-1 bg-white" >
+                    <div class="md:flex md:flex-wrap md:justify-between md:items-center">
+                        <!-- hovaten -->
+                        <div class="pt-11 md:basis-1/2">
+                            <p class="text-xl font-semibold">Trung Nguyen Tran</p>
+                            <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quae perferendis magnam expedita magni deserunt praesentium mollitia maiores eum itaque?</p>
+                        </div>
+                        <!-- Address--> 
+                        <div class="pt-11 md:basis-1/2">  
+                            <p class="font-semibold text-xl mb-2">Address</p>
+                                <!-- icon and text 1-->
+                                <div class="flex flex-row items-center gap-x-3">
+                                    <!-- icon -->
+                                    <i class="fa fa-map-marker text-xl " aria-hidden="true"></i>
+                                    <!-- text -->
+                                    <p>02, Nguyen Dinh Chieu, Nha Trang</p>
+                                </div>
+                                <!-- icon and text 2-->
+                                <div  class="flex flex-row items-center gap-x-3 pt-2">
+                                    <!-- icon -->
+                                    <i class="fa fa-phone text-xl " aria-hidden="true"></i>
+                                    <!-- text -->
+                                    <p>0123456789</p>
+                                </div>
+                                <!-- icon and text 3-->
+                                <div class="flex flex-row items-center gap-x-3 pt-2">
+                                    <!-- icon -->
+                                    <i class="fa fa-envelope text-xl" aria-hidden="true"></i>
+                                    <!-- text -->
+                                    <p>Trungquanpr999@gmail.com</p>
+                                </div>
+                        </div> <!-- Address-->
+                        <!-- Follow us -->
+                        <div class="pt-11 md:basis-1/2">
+                            <p class="text-xl font-bold">Follow us</p>
+                            <p class="pt-2">Github</p>
+                            <p class="pt-2"> Discord</p>
+                        </div>
+                        <!-- Newsletter -->
+                        <div class="pt-11 md:basis-1/2">
+                            <p class="text-xl font-bold">Newsletter</p>
+                            <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                        <!-- phan md flex ngang sign email and up--> 
+                        <div class="md:flex md:flex-row md:items-center md:justify-between md:pt-9  md:pb-4">
+                            <!-- input -->
+                            <div class="flex flex-row items-center pt-6 justify-center">
+                                <!-- textinput -->
+                                <div class="relative">
+                                    <input type="text" placeholder="Your Email" class="border border-black text-black py-2 px-4 rounded-md md:px-36 md:py-3">
+                                    <input type="button" value="Sign up" class="bg-green-500 absolute right-0 px-2 py-1 m-1 hover:bg-green-900 transition ease-in-out duration-500 rounded-md md:px-6 md:py-2">
+                                </div>
+                            </div>
+                            <div class="pt-6 text-end ">
+                                <a href="index.html" class="transition ease-in-out duration-1000"> <!-- iconup -->
+                                <i class="fa fa-long-arrow-up bg-green-500 px-5 py-4 rounded-full hover:bg-green-800 transition ease-in-out duration-500 md:px-7 md:py-6" aria-hidden="true"></i></a>
+                            </div>
+                        </div> <!-- het phan md flex ngang -->
+            </section>  <!-- het contact --> 
+    </div> <!-- hetphannoidung ben phai -->
+</div>  <!-- het phan chia 2 cot -->
+     <!-- mainjs -->
+     <script >
+        // menu
+                // var menu  = document.querySelector('#menu')
+                // var menu_buttom  = document.querySelector('#menubutton')
+                // menu_buttom.addEventListener('click', () =>{
+                //     menu.classList.toggle('invisible');
+                // })
+    //             function Menu(e){
+    //   let list = document.querySelector('#menu');
+    //   e.name === 'menu' ? (e.name = "close",list.classList.add('left-[0]') , list.classList.add('opacity-100') ) :( e.name = "menu" ,list.classList.remove('left-[0]'),list.classList.remove('opacity-100'));
+    // }
+                 function Menu(e){
+                    var menu  = document.querySelector('#menu')
+                    var menu_buttom  = document.querySelector('#menubutton')
+                    menu_buttom.addEventListener('click', () =>{
+                    menu.classList.toggle('invisible');
+                })
+                    e.name === 'menu' ? (e.name = "close", menu.classList.add('left-[0]') , menu.classList.toggle('invisible')) :( e.name = "menu" ,list.classList.remove('left-[0]'),list.classList.remove('invisible'));
+                 }
+
+    function boxproduct1() {
+        setTimeout(function(){
+                    window.location.href="boxproduct1/de3.html";
+                }, 500);
+    }
+    /////
+
+    function boxproduct2() {
+        setTimeout(function(){
+                    window.location.href="boxproduct2/boostap5seolamlai.html";
+                }, 500);
+    }
+    ///
+
+    function boxproduct3() {
+        setTimeout(function(){
+                    window.location.href="boxproduct3/thi.html";
+                }, 500);
+    }
+    ///
+
+    function boxproduct4() {
+        setTimeout(function(){
+                    window.location.href="boxproduct4/index.html";
+                }, 500);
+    }
+    ///
+
+    function boxproduct5() {
+        setTimeout(function(){
+                    window.location.href="boxproduct5/ontap.html";
+                }, 500);
+    }
+    ///
+
+    function boxproduct6() {
+        setTimeout(function(){
+                    window.location.href="boxproduct6/home.html";
+                }, 500);
+    }
+    ///
+
+    function boxproduct7() {
+        setTimeout(function(){
+                    window.location.href="boxproduct7/index.html";
+                }, 500);
+    }
+    ///
+
+    function boxproduct8() {
+        setTimeout(function(){
+                    window.location.href="boxproduct8/LabOnTap.html";
+                }, 500);
+    }
+
+    ///
+            // const switchToggle = document.querySelector('#switch-toggle');
+            // const html = document.querySelector('html');
+            // let isDarkmode = flase;
+
+            // const darkIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            // <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+            // </svg>
+            // `
+
+            // const lightIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            // <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+            // </svg>
+            // `
+
+            // function toggleTheme (){
+            // isDarkmode = !isDarkmode
+            // switchTheme()
+            // }
+
+            // function switchTheme(){
+            // if (isDarkmode){
+            //     html.classList.add('dark')
+            //     switchToggle.classList.remove('bg-yellow-500','translate-x-2')
+            //     switchToggle.classList.add ('bg-gray-700','translate-x-16')
+            //     setTimeout(() => {
+            //         switchToggle.innerHTML = darkIcon
+            //     }, 250);
+            // } else {
+            //     html.classList.remove('dark')
+            //     switchToggle.classList.add('bg-yellow-500','translate-x-2')
+            //     switchToggle.classList.remove ('bg-gray-700','translate-x-16')
+            //     setTimeout(() => {
+            //         switchToggle.innerHTML = lightIcon
+            //     }, 250);
+            // }
+            // } 
+
+            ///
+          const doimaubd = document.querySelector('.doimaubody'),
+             doimaubt1 = document.querySelector('#doimaubt1'),
+             doimaubt2 = document.querySelector('#doimaubt2'),
+             doimau = document.querySelector('#doimaubt2'),
+             doimaufact1 = document.querySelector('.doimaufact1'),
+             doimaufact2 = document.querySelector('.doimaufact2'),
+             doimaufact3 = document.querySelector('.doimaufact3'),
+             doimaufact4 = document.querySelector('.doimaufact4'),
+             darkbordert1 = document.querySelector('.darkbordert1'),
+             darkbordert2 = document.querySelector('.darkbordert2'),
+             darkbordert3 = document.querySelector('.darkbordert3'),
+             darkbordert4 = document.querySelector('.darkbordert4'),
+             darkbordert5 = document.querySelector('.darkbordert5'),
+             darkbordert6 = document.querySelector('.darkbordert6'),
+             darkbordert7 = document.querySelector('.darkbordert7'),
+             darkbordert8 = document.querySelector('.darkbordert8'),
+             darkmoon = document.querySelector('.darkmoon'),
+              toggle = document.querySelector('.toggle');
+
+               let getMode = localStorage.getItem("mode");
+               if (getMode && getMode === "dark"){
+                doimaubd.classList.toggle('dark');
+                doimaubt1.classList.toggle('dark');
+                doimaubt2.classList.toggle('dark');
+                doimaufact1.classList.toggle('dark');
+                doimaufact2.classList.toggle('dark');
+                doimaufact3.classList.toggle('dark');
+                doimaufact4.classList.toggle('dark');
+                darkbordert1.classList.toggle('dark');
+                darkbordert2.classList.toggle('dark');
+                darkbordert3.classList.toggle('dark');
+                darkbordert4.classList.toggle('dark');
+                darkbordert5.classList.toggle('dark');
+                darkbordert6.classList.toggle('dark');
+                darkbordert7.classList.toggle('dark');
+                darkbordert8.classList.toggle('dark');
+                darkmoon.classList.toggle('dark');
+                toggle.classList.toggle("active");
+               }
+
+              toggle.addEventListener("click" , () => {
+                doimaubd.classList.toggle('dark');
+                if (!doimaubd.classList.contains('dark')){
+                return localStorage.setItem('mode', 'light');
+                 } 
+                 
+               localStorage.setItem('mode', 'dark');
+              });
+              toggle.addEventListener("click" , () => {
+                doimaubt1.classList.toggle('dark');
+              });
+              toggle.addEventListener("click" , () => {
+                doimaubt2.classList.toggle('dark');
+              });
+              toggle.addEventListener("click" , () => {
+                doimaufact1.classList.toggle('dark');
+              });
+              toggle.addEventListener("click" , () => {
+                doimaufact2.classList.toggle('dark');
+              });
+              toggle.addEventListener("click" , () => {
+                doimaufact3.classList.toggle('dark');
+              });
+              toggle.addEventListener("click" , () => {
+                doimaufact4.classList.toggle('dark');
+              });
+              toggle.addEventListener("click" , () => {
+                darkbordert1.classList.toggle('dark');
+              });
+              toggle.addEventListener("click" , () => {
+                darkbordert2.classList.toggle('dark');
+              });
+              toggle.addEventListener("click" , () => {
+                darkbordert3.classList.toggle('dark');
+              });
+              toggle.addEventListener("click" , () => {
+                darkbordert4.classList.toggle('dark');
+              });
+              toggle.addEventListener("click" , () => {
+                darkbordert5.classList.toggle('dark');
+              });
+              toggle.addEventListener("click" , () => {
+                darkbordert6.classList.toggle('dark');
+              });
+              toggle.addEventListener("click" , () => {
+                darkbordert7.classList.toggle('dark');
+              });
+              toggle.addEventListener("click" , () => {
+                darkbordert8.classList.toggle('dark');
+              });
+              toggle.addEventListener("click" , () => {
+                darkmoon.classList.toggle('dark');
+              });
+
+              toggle.addEventListener("click" , () => toggle.classList.toggle("active"));
+     </script>
+</body>
+</html>
